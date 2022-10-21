@@ -97,6 +97,7 @@ button:hover {
   text-align: center;
   width: 23rem;
   display: inline-block;
+  margin: 0.5rem;
 }
 
 .CollectionPicturesHiFi > div {
