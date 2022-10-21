@@ -99,6 +99,12 @@ button:hover {
   display: inline-block;
 }
 
+.CollectionPicturesHiFi > div {
+  text-align: center;
+  /* width: 23rem; */
+  display: block;
+}
+
 .CollectionPictures text {
   margin-left: 20px;
 }
