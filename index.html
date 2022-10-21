@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cal's Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+
+    <nav class="header">
+      <div class="container-fluid">
+        <!-- <button class="show-modal">Click for Surprise</button> -->
+        <!-- <i class="fa fa-home"></i>
+        <i class="fa fa-home" style="font-size: 48px"></i> -->
+        <ul>
+          <li>
+            <a class="home" href="#top"
+              ><img src="007MuseumLogo1.png" width="40%" height="30%"
+            /></a>
+          </li>
+          <li>
+            <a
+              href="#collections"
+              class="projectOne"
+              style="font-size: 20px; color: #ffffff"
+              >Collections</a
+            >
+          </li>
+          <li>
+            <a
+              href="#personas"
+              class="personas"
+              style="font-size: 20px; color: #ffffff"
+              >Visit</a
+            >
+          </li>
+          <li>
+            <a
+              href="#storyboard"
+              class="project-3"
+              style="font-size: 20px; color: #ffffff"
+              >High-Fidelity Wireframing</a
+            >
+          </li>
+          <!-- <li>
+            <a href="" class="" style="font-size: 20px; color: #ffffff"
+              >Donate</a
+            >
+          </li> -->
+          <!-- you should make this open a modal with a form. Use one of the vids from Udemy course -->
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Modal -->
+
+    <div class="modal hidden">
+      <!--this window is hidden because in the css .hidden is set to display none-->
+      <button class="close-modal">&times;</button>
+      <h1>Search</h1>
+      <form>
+        <label>
+          <input
+            class="waitlistInputField"
+            type="text"
+            name="email"
+            placeholder="Search"
+          />
+        </label>
+
+        <button class="signUp">Search</button>
+      </form>
+      <!-- <img src="bluenoSticker.png" width="25%" height="25%" /> -->
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- /////////////// -->
+
+    <!-- src="https://i.ibb.co/9WXVjKm/apppaul-cropped.jpg"
+    alt="shoe" -->
+
+    <!-- Banner Section -->
+    <!-- Banner Section -->
+    <div class="banner">
+      <div>
+        <h4 style="color: #ffffff; font-size: 54px;">Responsive Redesign Portfolio</h4>
+      </div>
+      <!-- <h1>Here's my UI/UX Portfolio!</h1> -->
+      <!-- <div>
+        <button class="tourButton">Tours & Tickets</button>
+      </div> -->
+      <div>
+        
+        <a
+              href="http://www.007museum.com/index.html"
+              class="projectOne"
+              style="font-size: 20px; color: #ffffff"
+              >Original Website</a
+            >
+      </div>
+      <img src="OriginalWebsite.png" style="width: 23rem" />
+      <p>I chose this webpage for three reasons: I enjoy James Bond movies, they have a cool theme that I would love to work with, and there is a substantial amount of James Bond content lower on the webpage that I’m looking forward to incorporating into my redesign.  
+      </p>
+      <div>
+        <a
+              href="https://loonyloon999.github.io/ResponsiveRedesign/"
+              class="projectOne"
+              style="font-size: 20px; color: #ffffff"
+              >My Redesign Link</a
+            >
+      </div>
+      <div>
+        <!-- <i
+          class="fa fa-long-arrow-down"
+          style="font-size: 38px; color: white"
+        ></i> -->
+        <!-- fa-arrow-down -->
+      </div>
+      <!-- <p>Welcome. I hope you enjoy!</p> -->
+    </div>
+    <!-- src="https://i.ibb.co/yX1XSDV/daniel-korpai-a-Umq85-2-V7-I-unsplash-1.jpg" -->
+    <!-- src="https://i.ibb.co/9WXVjKm/apppaul-cropped.jpg" -->
+
+    <!-- Project 2-->
+    <div
+      id="collections"
+      style="scroll-margin-top: 7rem; background-color: #f0d691"
+    >
+      <h1 style="font-size: 35px; color: #ffffff">Low-fidelity Wireframing</h1>
+      <div class="CollectionPictures" style="display: inline-block">
+        <div>
+          <img src="LowFi1.png" style="width: 23rem" />
+          <!-- rectangle text from https://www.w3schools.com/graphics/svg_rect.asp -->
+          <svg>
+            <g>
+              <rect
+                width="23rem"
+                height="3rem"
+                style="fill: #f0d691; stroke-width: 3; stroke: rgb(0, 0, 0)"
+              />
+              <text
+                x=".4rem"
+                y="2rem"
+                font-family="Verdana"
+                font-size="14"
+                fill="black"
+              >
+                Desktop
+              </text>
+            </g>
+          </svg>
+        </div>
+        <div>
+          <img src="LowFi2.png" style="width: 23rem" />
+          <svg>
+            <g>
+              <rect
+                width="23rem"
+                height="3rem"
+                style="fill: #f0d691; stroke-width: 3; stroke: rgb(0, 0, 0)"
+              />
+              <text
+                x=".4rem"
+                y="2rem"
+                font-family="Verdana"
+                font-size="14"
+                fill="black"
+              >
+                Tablet
+              </text>
+            </g>
+          </svg>
+        </div>
+        <div>
+          <img src="LowFi3.png" style="width: 10rem" />
+          <svg>
+            <g>
+              <rect
+                width="23rem"
+                height="3rem"
+                style="fill: #f0d691; stroke-width: 3; stroke: rgb(0, 0, 0)"
+              />
+              <text
+                x=".4rem"
+                y="2rem"
+                font-family="Verdana"
+                font-size="14"
+                fill="black"
+              >
+                iPhone
+              </text>
+            </g>
+          </svg>
+        </div>
+      </div>
+
+      <!-- <div>
+        <img
+          class="mySlides"
+          src="https://i.ibb.co/yX1XSDV/daniel-korpai-a-Umq85-2-V7-I-unsplash-1.jpg"
+          alt="shoe"
+        />
+        <img
+          class="mySlides"
+          src="https://i.ibb.co/9WXVjKm/apppaul-cropped.jpg"
+          alt="phone"
+        />
+      </div> -->
+      <!-- Slideshow container -->
+      <!-- Slideshow code from https://www.w3schools.com/howto/howto_js_slideshow.asp -->
+      <!-- <div class="slideshow-container" style="width: 100%">
+       
+        <div class="mySlides">
+          <img src="007Motorcycle2.png" style="width: 100%" />
+          <p>
+            The Tiger 900 Bond 007 Edition Tiger 900 Rally Pro, which features
+            in amazing stunt sequences in the James Bond Film, No Time To Die
+          </p>
+        </div>
+
+        <div class="mySlides">
+          <img src="007Motorcycle.png" style="width: 100%" />
+          <p>
+            James Bond movie "NO TIME TO DIE" TRIUMPH Scrambler 1200 XE, 007
+            BOND EDITION motorcycle Driven by DANIEL CRAIG. On display in James
+            Bond 007 Museum Nybro Sweden
+          </p>
+        </div>
+      </div> -->
+      <br />
+    </div>
+
+    <!-- Project 1 -->
+    <div id="personas" style="scroll-margin-top: 7rem">
+      <h1 style="font-size: 35px; color: #ffffff">UI Style Guide</h1>
+      <img src="UIStyleGuide.png" width="20%" height="20%" />
+    </div>
+
+    <!-- Project 3-->
+    <div
+      id="storyboard"
+      style="scroll-margin-top: 7rem; background-color: #f0d691"
+    >
+    <h1 style="font-size: 35px; color: #ffffff">High-fidelity Wireframing</h1>
+    <div class="CollectionPictures" style="display: inline-block">
+      <div>
+        <img src="007TheOtherFellow.png" style="width: 18rem" />
+        <!-- rectangle text from https://www.w3schools.com/graphics/svg_rect.asp -->
+        <svg>
+          <g>
+            <rect
+              width="23rem"
+              height="3rem"
+              style="fill: #f0d691; stroke-width: 3; stroke: rgb(0, 0, 0)"
+            />
+            <text
+              x=".4rem"
+              y="2rem"
+              font-size="14"
+              fill="black"
+            >
+           Desktop
+            </text>
+          </g>
+        </svg>
+      </div>
+      <div>
+        <img src="007TheOtherFellow.png" style="width: 18rem" />
+        <!-- rectangle text from https://www.w3schools.com/graphics/svg_rect.asp -->
+        <svg>
+          <g>
+            <rect
+              width="23rem"
+              height="3rem"
+              style="fill: #f0d691; stroke-width: 3; stroke: rgb(0, 0, 0)"
+            />
+            <text
+              x=".4rem"
+              y="2rem"
+              font-size="14"
+              fill="black"
+            >
+            Tablet
+            </text>
+          </g>
+        </svg>
+      </div>
+      <div>
+        <img src="007TheOtherFellow.png" style="width: 18rem" />
+        <!-- rectangle text from https://www.w3schools.com/graphics/svg_rect.asp -->
+        <svg>
+          <g>
+            <rect
+              width="23rem"
+              height="3rem"
+              style="fill: #f0d691; stroke-width: 3; stroke: rgb(0, 0, 0)"
+            />
+            <text
+              x=".4rem"
+              y="2rem"
+              font-size="14"
+              fill="black"
+            >
+            Mobile
+            </text>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <div class="footer">
+      <p style="color: #ffffff;">© 007 Museum</p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,328 @@
+@font-face {
+  font-family: "GlegooBanner";
+  src: url("../fonts/Glegoo-Regular.woff2") format("woff2"),
+    url("../fonts/Glegoo-Regular.woff") format("woff"),
+    url("../fonts/Glegoo-Regular.ttf") format("truetype");
+}
+
+/* Universal Styles */
+html {
+  font-size: 16px;
+  /* font-family: "Arial", sans-serif; */
+  /* font-family: "Roboto Serif", serif; */
+}
+
+body {
+  background-color: #020305;
+  text-align: center;
+}
+
+h1 {
+  padding: 20px;
+  color: white;
+  font-size: 28px;
+  text-align: center;
+  /* font-family: Georgia; */
+  /* font-family: "Roboto Serif", serif; */
+  font-family: "Exo 2", sans-serif;
+  /* font-family: "Exo", sans-serif; */
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+}
+
+h2 {
+  padding: 40px 20px 0 20px;
+  font-size: 24px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  font-family: "Exo 2", sans-serif;
+}
+
+text {
+  font-family: "Exo 2", sans-serif;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 0;
+  background-color: #020305;
+  font-size: 14px;
+  font-weight: 900;
+  z-index: 16;
+  font-family: "Exo 2", sans-serif;
+}
+
+.header li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.header a {
+  color: #4a4a4a;
+}
+
+a.home {
+  color: #a5adbd;
+  position: absolute;
+  top: 0px;
+  left: -7%;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.header a:hover {
+  opacity: 0.5;
+}
+
+.header i:hover {
+  opacity: 0.5;
+}
+
+.CollectionPictures > div {
+  text-align: center;
+  width: 23rem;
+  display: inline-block;
+}
+
+.CollectionPictures text {
+  margin-left: 20px;
+}
+
+/* Banner Section */
+.banner {
+  margin-top: 100px;
+  padding: 40px 0 10px 0;
+  background-color: #020305;
+}
+
+.banner h1 {
+  margin-right: 90%;
+  font-size: 50px;
+  /* font-family: "Roboto Serif", serif; */
+  font-family: "Exo 2", sans-serif;
+  /* font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif; */
+}
+
+.banner p {
+  /* border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff; */
+  color: #ffffff;
+  /* font-weight: lighter; */
+  /* word-spacing: 0.25em; */
+  line-height: 1.4;
+  /* font-family: "Roboto Serif", serif; */
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+  /* margin-right: 90%; */
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* Tour Button */
+.tourButton {
+  background-color: #f20003;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 4rem;
+  /* margin: 1rem 1rem; */
+  border: none;
+  border-radius: 5rem;
+  cursor: pointer;
+  padding: 30px 64px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* Lower */
+.lower {
+  /* padding-bottom: 60px; */
+  margin-top: -20px;
+  color: #717171;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* Center */
+.centeredTable {
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* width: 100%; */
+  table-layout: fixed;
+  border-collapse: collapse;
+  padding-bottom: 40px;
+  color: #717171;
+  font-family: "Exo 2", sans-serif;
+}
+
+/* Font Card Sections */
+.font-card {
+  padding: 10px 0 40px 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.font-card .creator {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.sample {
+  display: inline-block;
+  padding: 5px 40px;
+}
+
+.sample .text {
+  color: #4d00ff;
+  font-size: 100px;
+}
+
+.serif {
+  font-family: "Exo 2", sans-serif;
+  /* font-family: "Roboto Serif", serif; */
+}
+
+.space {
+  font-family: "Exo 2", sans-serif;
+  /* font-family: "Roboto Serif", serif; */
+}
+
+.bold {
+  font-weight: 900;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.italic {
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* -------------------------- */
+/* CLASSES TO MAKE MODAL WORK */
+.hidden {
+  display: none;
+}
+
+.noScroll {
+  overflow-y: hidden;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 18;
+}
+
+.modal h1 {
+  font-style: italic;
+  color: black;
+}
+
+.waitlistInputField {
+  width: 50%;
+  border-radius: 15px;
+  padding: 10px;
+  border-color: gray;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 17;
+}
+
+.show-modal {
+  font-size: 1rem;
+  font-weight: 600;
+  float: right;
+  /* margin: 1rem 1rem; */
+  border: none;
+  /* background-color: rgb(182, 120, 230); */
+  color: #444;
+  /* border-radius: 10rem; */
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.signUp {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1rem 1rem;
+  border: none;
+  background-color: #f0d691;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.mySlides {
+  width: 45%;
+  /* transform: translate(50%, 0%); */
+  border-radius: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /* z-index: -10; */
+  /* margin-bottom: -400px; */
+}
+
+.personas {
+  scroll-margin-top: 4rem;
+}
+
+.projectOne {
+  scroll-margin-top: 1rem;
+}
+
+.footer {
+  background-color: #020305;
+}
